@@ -11,6 +11,9 @@
 		380DDE7325AE16740039A416 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380DDE7225AE16740039A416 /* ContentView.swift */; };
 		380DDE7525AE16750039A416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380DDE7425AE16750039A416 /* Assets.xcassets */; };
 		380DDE7825AE16750039A416 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380DDE7725AE16750039A416 /* Preview Assets.xcassets */; };
+		380DDE8325AE1D1C0039A416 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 380DDE8225AE1D1C0039A416 /* Poppins-Regular.ttf */; };
+		380DDE8925AE1EFA0039A416 /* MarckScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 380DDE8825AE1EFA0039A416 /* MarckScript-Regular.ttf */; };
+		380DDE8D25AE3AE00039A416 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380DDE8C25AE3AE00039A416 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		380DDE7425AE16750039A416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		380DDE7725AE16750039A416 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		380DDE7925AE16750039A416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380DDE8225AE1D1C0039A416 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		380DDE8825AE1EFA0039A416 /* MarckScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarckScript-Regular.ttf"; sourceTree = "<group>"; };
+		380DDE8C25AE3AE00039A416 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,10 @@
 		380DDE6F25AE16740039A416 /* MiCard */ = {
 			isa = PBXGroup;
 			children = (
+				380DDE8125AE1CF00039A416 /* fonts */,
 				380DDE7025AE16740039A416 /* MiCardApp.swift */,
 				380DDE7225AE16740039A416 /* ContentView.swift */,
+				380DDE8C25AE3AE00039A416 /* InfoView.swift */,
 				380DDE7425AE16750039A416 /* Assets.xcassets */,
 				380DDE7925AE16750039A416 /* Info.plist */,
 				380DDE7625AE16750039A416 /* Preview Content */,
@@ -67,6 +75,15 @@
 				380DDE7725AE16750039A416 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		380DDE8125AE1CF00039A416 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				380DDE8825AE1EFA0039A416 /* MarckScript-Regular.ttf */,
+				380DDE8225AE1D1C0039A416 /* Poppins-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380DDE8325AE1D1C0039A416 /* Poppins-Regular.ttf in Resources */,
+				380DDE8925AE1EFA0039A416 /* MarckScript-Regular.ttf in Resources */,
 				380DDE7825AE16750039A416 /* Preview Assets.xcassets in Resources */,
 				380DDE7525AE16750039A416 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				380DDE7325AE16740039A416 /* ContentView.swift in Sources */,
+				380DDE8D25AE3AE00039A416 /* InfoView.swift in Sources */,
 				380DDE7125AE16740039A416 /* MiCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
